@@ -1,0 +1,28 @@
+# Web
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# Async
+anyio>=4.0.0
+
+# Config
+pydantic-settings>=2.0.0
+
+# RAG: LlamaIndex + Qdrant
+llama-index>=0.11.0
+llama-index-vector-stores-qdrant>=0.2.0
+llama-index-embeddings-openai>=0.2.0
+llama-index-llms-openai>=0.2.0
+qdrant-client>=1.12.0
+
+# Optional: uncomment if needed
+# llama-index-embeddings-fastembed>=0.2.0
+# llama-index-llms-ollama>=0.2.0
+
+# Env
+python-dotenv>=1.0.0
+
+# Database (MySQL async connection pool)
+sqlalchemy[asyncio]>=2.0.0
+aiomysql>=0.2.0
+cryptography>=41.0.0
